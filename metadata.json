@@ -1,0 +1,6 @@
+{
+  "name": "Stock Momentum Backtester",
+  "description": "Full-stack Quantitative Momentum Backtester with historical benchmark comparison, custom universe management, and rebalance verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

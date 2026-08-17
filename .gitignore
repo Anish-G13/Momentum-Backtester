@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Python caches and artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Backtester Data and Cache
+backtester/cache/
+*.parquet
+*.png
+*.csv.cache
+
+# Environment and logs
+.env
+.env.local
+.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/

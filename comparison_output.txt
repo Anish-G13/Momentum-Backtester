@@ -1,0 +1,624 @@
+/usr/local/lib/python3.11/dist-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+2026-08-09 15:41:10,690 [INFO] Starting Momentum Backtest run...
+2026-08-09 15:41:10,691 [INFO] Parameters: Start=2025-07-31, End=2026-08-04, Capital=$30,000.00, Positions=10, Lookback=12m, SkipLast=True, IncludeShorts=False, Universe=russell1000.csv
+2026-08-09 15:41:10,708 [INFO] Total tickers loaded: 1013 from universe file 'russell1000.csv'.
+2026-08-09 15:41:10,709 [INFO] Note: Historical constituent membership (DateAdded/DateRemoved) is unavailable for Russell 1000; default static dates used.
+2026-08-09 15:41:10,710 [INFO] Fetching universe price data (Close, Open, Volume) for 1013 tickers from 2024-04-30 to 2026-08-04...
+2026-08-09 15:41:27,242 [INFO] Successfully loaded price data for 1007 active tickers.
+2026-08-09 15:41:27,298 [INFO] Fetching SPY benchmark price data...
+2026-08-09 15:41:30,401 [INFO] Saved trades log to '/app/applet/backtester/trades.csv'
+2026-08-09 15:41:30,401 [INFO] Saved portfolio log to '/app/applet/backtester/portfolio.csv'
+2026-08-09 15:41:30,401 [INFO] Running Verification Mode for rebalance execution date: 2026-08-03 (signal date: 2026-07-31)
+2026-08-09 15:41:30,810 [INFO] Saved verification log to '/app/applet/backtester/verification.csv'
+2026-08-09 15:41:32,210 [INFO] Generated chart '/app/applet/backtester/equity_curve.png'
+2026-08-09 15:41:32,210 [INFO] Generated chart '/app/applet/backtester/drawdown.png'
+2026-08-09 15:41:32,290 [INFO] Starting Momentum Backtest run...
+2026-08-09 15:41:32,291 [INFO] Parameters: Start=2025-07-31, End=2026-08-04, Capital=$30,000.00, Positions=10, Lookback=12m, SkipLast=True, IncludeShorts=False, Universe=russell1000.csv
+2026-08-09 15:41:32,291 [INFO] Total tickers loaded: 1013 from universe file 'russell1000.csv'.
+2026-08-09 15:41:32,291 [INFO] Note: Historical constituent membership (DateAdded/DateRemoved) is unavailable for Russell 1000; default static dates used.
+2026-08-09 15:41:32,292 [INFO] Fetching universe price data (Close, Open, Volume) for 1013 tickers from 2024-04-30 to 2026-08-04...
+2026-08-09 15:41:47,305 [INFO] Successfully loaded price data for 1007 active tickers.
+2026-08-09 15:41:47,314 [INFO] Fetching SPY benchmark price data...
+2026-08-09 15:41:48,328 [INFO] [Sector Cap Audit] Skipping candidate PLTR on 2025-11-28: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,426 [INFO] [Sector Cap Audit] Skipping candidate CDE on 2025-12-31: sector 'Basic Materials' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,591 [INFO] [Sector Cap Audit] Skipping candidate APLD on 2026-01-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,591 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-01-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,592 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-01-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,692 [INFO] [Sector Cap Audit] Skipping candidate WDC on 2026-02-27: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,693 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-02-27: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,693 [INFO] [Sector Cap Audit] Skipping candidate ASTS on 2026-02-27: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,794 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,794 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,795 [INFO] [Sector Cap Audit] Skipping candidate APLD on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,795 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,796 [INFO] [Sector Cap Audit] Skipping candidate COHR on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,797 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,902 [INFO] [Sector Cap Audit] Skipping candidate WDC on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,902 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,903 [INFO] [Sector Cap Audit] Skipping candidate APLD on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,903 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,903 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,903 [INFO] [Sector Cap Audit] Skipping candidate COHR on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:48,903 [INFO] [Sector Cap Audit] Skipping candidate ASTS on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,008 [INFO] [Sector Cap Audit] Skipping candidate WDC on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,008 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,009 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,009 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,010 [INFO] [Sector Cap Audit] Skipping candidate APLD on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,010 [INFO] [Sector Cap Audit] Skipping candidate COHR on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,011 [INFO] [Sector Cap Audit] Skipping candidate AMKR on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,011 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,012 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,133 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,134 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,134 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,134 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,134 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,134 [INFO] [Sector Cap Audit] Skipping candidate APLD on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,135 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,135 [INFO] [Sector Cap Audit] Skipping candidate COHR on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,135 [INFO] [Sector Cap Audit] Skipping candidate ALAB on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,135 [INFO] [Sector Cap Audit] Skipping candidate AMD on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,136 [INFO] [Sector Cap Audit] Skipping candidate DELL on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,136 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,136 [INFO] [Sector Cap Audit] Skipping candidate AMKR on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,137 [INFO] [Sector Cap Audit] Skipping candidate LRCX on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,137 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,137 [INFO] [Sector Cap Audit] Skipping candidate FLEX on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,138 [INFO] [Sector Cap Audit] Skipping candidate LSCC on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,297 [INFO] [Sector Cap Audit] Skipping candidate LITE on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,297 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,297 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,297 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,298 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,298 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,298 [INFO] [Sector Cap Audit] Skipping candidate LRCX on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,299 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,299 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,299 [INFO] [Sector Cap Audit] Skipping candidate AMAT on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,300 [INFO] [Sector Cap Audit] Skipping candidate ONTO on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,300 [INFO] [Sector Cap Audit] Skipping candidate AMKR on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,300 [INFO] [Sector Cap Audit] Skipping candidate MRVL on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,301 [INFO] [Sector Cap Audit] Skipping candidate COHR on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,301 [INFO] [Sector Cap Audit] Skipping candidate ALAB on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,302 [INFO] [Sector Cap Audit] Skipping candidate KLAC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,302 [INFO] [Sector Cap Audit] Skipping candidate AMD on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,302 [INFO] [Sector Cap Audit] Skipping candidate DELL on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,303 [INFO] [Sector Cap Audit] Skipping candidate FLEX on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,304 [INFO] [Sector Cap Audit] Skipping candidate LSCC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,304 [INFO] [Sector Cap Audit] Skipping candidate APLD on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,443 [INFO] [Sector Cap Audit] Skipping candidate LITE on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,443 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,443 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,444 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,444 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,445 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,445 [INFO] [Sector Cap Audit] Skipping candidate LRCX on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,445 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,445 [INFO] [Sector Cap Audit] Skipping candidate AMAT on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,446 [INFO] [Sector Cap Audit] Skipping candidate MRVL on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,446 [INFO] [Sector Cap Audit] Skipping candidate ONTO on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,446 [INFO] [Sector Cap Audit] Skipping candidate COHR on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,446 [INFO] [Sector Cap Audit] Skipping candidate AMKR on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,446 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,446 [INFO] [Sector Cap Audit] Skipping candidate DELL on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,447 [INFO] [Sector Cap Audit] Skipping candidate ALAB on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,447 [INFO] [Sector Cap Audit] Skipping candidate AMD on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,448 [INFO] [Sector Cap Audit] Skipping candidate MRNA on 2026-08-03: sector 'Healthcare' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,448 [INFO] [Sector Cap Audit] Skipping candidate LSCC on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,639 [INFO] Saved trades log to '/app/applet/backtester/trades.csv'
+2026-08-09 15:41:49,639 [INFO] Saved portfolio log to '/app/applet/backtester/portfolio.csv'
+2026-08-09 15:41:49,640 [INFO] Running Verification Mode for rebalance execution date: 2026-08-03 (signal date: 2026-07-31)
+2026-08-09 15:41:49,916 [INFO] [Sector Cap Audit] Skipping candidate LITE on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,916 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,917 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,917 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,917 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,918 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,918 [INFO] [Sector Cap Audit] Skipping candidate LRCX on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,918 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,918 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,919 [INFO] [Sector Cap Audit] Skipping candidate AMAT on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,919 [INFO] [Sector Cap Audit] Skipping candidate ONTO on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,919 [INFO] [Sector Cap Audit] Skipping candidate AMKR on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,919 [INFO] [Sector Cap Audit] Skipping candidate MRVL on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,920 [INFO] [Sector Cap Audit] Skipping candidate COHR on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,920 [INFO] [Sector Cap Audit] Skipping candidate ALAB on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,920 [INFO] [Sector Cap Audit] Skipping candidate KLAC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,920 [INFO] [Sector Cap Audit] Skipping candidate AMD on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,921 [INFO] [Sector Cap Audit] Skipping candidate DELL on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,921 [INFO] [Sector Cap Audit] Skipping candidate FLEX on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,922 [INFO] [Sector Cap Audit] Skipping candidate LSCC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,922 [INFO] [Sector Cap Audit] Skipping candidate APLD on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:41:49,941 [INFO] Saved verification log to '/app/applet/backtester/verification.csv'
+2026-08-09 15:41:51,025 [INFO] Generated chart '/app/applet/backtester/equity_curve.png'
+2026-08-09 15:41:51,025 [INFO] Generated chart '/app/applet/backtester/drawdown.png'
+2026-08-09 15:41:51,106 [INFO] Starting Momentum Backtest run...
+2026-08-09 15:41:51,106 [INFO] Parameters: Start=2025-07-31, End=2026-08-04, Capital=$30,000.00, Positions=10, Lookback=12m, SkipLast=True, IncludeShorts=False, Universe=russell1000.csv
+2026-08-09 15:41:51,107 [INFO] Total tickers loaded: 1013 from universe file 'russell1000.csv'.
+2026-08-09 15:41:51,107 [INFO] Note: Historical constituent membership (DateAdded/DateRemoved) is unavailable for Russell 1000; default static dates used.
+2026-08-09 15:41:51,107 [INFO] Fetching universe price data (Close, Open, Volume) for 1013 tickers from 2024-04-30 to 2026-08-04...
+2026-08-09 15:42:06,296 [INFO] Successfully loaded price data for 1007 active tickers.
+2026-08-09 15:42:06,309 [INFO] Fetching SPY benchmark price data...
+Total tickers loaded: 1013
+
+=================================================================
+         MOMENTUM STRATEGY BACKTEST PERFORMANCE REPORT        
+=================================================================
+  Starting Capital:            $30,000.00
+  Ending Capital:              $72,977.92
+  Total Return:                143.26%
+  Annualized Return (CAGR):    141.65%
+  Maximum Drawdown:            39.31%
+  Annualized Volatility:       61.41%
+  Sharpe Ratio:                1.72
+  Total Trades Executed:       159
+  Average Holding Period:      63.2 days
+-----------------------------------------------------------------
+  BENCHMARK COMPARISON (SPY Buy & Hold)
+-----------------------------------------------------------------
+  SPY Total Return:            21.20%
+  SPY Annualized Return (CAGR):21.02%
+  SPY Maximum Drawdown:        8.88%
+  Alpha (CAGR Spread):         +120.63%
+=================================================================
+
+
+================================================================================================
+      REBALANCE VERIFICATION REPORT — REBALANCE DATE: 2026-07-31
+================================================================================================
+  Total Stocks Evaluated:      1007
+  Valid Momentum Scores:       991
+  Skipped / Stale / Missing:   16
+------------------------------------------------------------------------------------------------
+  TOP 20 RANKED STOCKS (12-1 Momentum Calculation)
+------------------------------------------------------------------------------------------------
+  Rank  Ticker   Score (%)   Selected   Start Date   Start Price  End Date     End Price   
+  ----------------------------------------------------------------------------------------------
+  1     SNDK     +5197.60%   LONG       2025-07-31   $42.92       2026-06-30   $2,273.73   
+  2     MU       +959.16%    LONG       2025-07-31   $108.97      2026-06-30   $1,154.11   
+  3     WDC      +713.89%    LONG       2025-07-31   $78.48       2026-06-30   $638.72     
+  4     BE       +709.57%    LONG       2025-07-31   $37.39       2026-06-30   $302.70     
+  5     LITE     +679.49%    LONG       2025-07-31   $110.08      2026-06-30   $858.06     
+  6     INTC     +605.20%    LONG       2025-07-31   $19.80       2026-06-30   $139.63     
+  7     AAOI     +547.84%    LONG       2025-07-31   $22.87       2026-06-30   $148.16     
+  8     DOCN     +463.64%    LONG       2025-07-31   $27.86       2026-06-30   $157.03     
+  9     CIEN     +428.39%    LONG       2025-07-31   $92.84       2026-06-30   $490.56     
+  10    ARWR     +415.89%    LONG       2025-07-31   $15.80       2026-06-30   $81.51      
+  11    RVMD     +402.50%    NO         2025-07-31   $37.27       2026-06-30   $187.28     
+  12    MKSI     +369.83%    NO         2025-07-31   $94.67       2026-06-30   $444.80     
+  13    LRCX     +359.44%    NO         2025-07-31   $94.32       2026-06-30   $433.33     
+  14    TER      +351.53%    NO         2025-07-31   $107.16      2026-06-30   $483.84     
+  15    ALM      +348.78%    NO         2025-07-31   $3.69        2026-06-30   $16.56      
+  16    GLW      +308.32%    NO         2025-07-31   $62.56       2026-06-30   $255.43     
+  17    AMAT     +304.48%    NO         2025-07-31   $178.75      2026-06-30   $723.00     
+  18    ONTO     +299.42%    NO         2025-07-31   $94.75       2026-06-30   $378.45     
+  19    AMKR     +285.52%    NO         2025-07-31   $22.37       2026-06-30   $86.23      
+  20    MRVL     +271.35%    NO         2025-07-31   $80.20       2026-06-30   $297.82     
+================================================================================================
+
+Total tickers loaded: 1013
+
+=================================================================
+         MOMENTUM STRATEGY BACKTEST PERFORMANCE REPORT        
+=================================================================
+  Starting Capital:            $30,000.00
+  Ending Capital:              $58,970.95
+  Total Return:                96.57%
+  Annualized Return (CAGR):    95.58%
+  Maximum Drawdown:            29.95%
+  Annualized Volatility:       53.02%
+  Sharpe Ratio:                1.50
+  Total Trades Executed:       166
+  Average Holding Period:      52.5 days
+-----------------------------------------------------------------
+  BENCHMARK COMPARISON (SPY Buy & Hold)
+-----------------------------------------------------------------
+  SPY Total Return:            21.20%
+  SPY Annualized Return (CAGR):21.02%
+  SPY Maximum Drawdown:        8.88%
+  Alpha (CAGR Spread):         +74.56%
+=================================================================
+
+
+================================================================================================
+      REBALANCE VERIFICATION REPORT — REBALANCE DATE: 2026-07-31
+================================================================================================
+  Total Stocks Evaluated:      1007
+  Valid Momentum Scores:       991
+  Skipped / Stale / Missing:   16
+------------------------------------------------------------------------------------------------
+  TOP 20 RANKED STOCKS (12-1 Momentum Calculation)
+------------------------------------------------------------------------------------------------
+  Rank  Ticker   Score (%)   Selected   Start Date   Start Price  End Date     End Price   
+  ----------------------------------------------------------------------------------------------
+  1     SNDK     +5197.60%   LONG       2025-07-31   $42.92       2026-06-30   $2,273.73   
+  2     MU       +959.16%    LONG       2025-07-31   $108.97      2026-06-30   $1,154.11   
+  3     WDC      +713.89%    LONG       2025-07-31   $78.48       2026-06-30   $638.72     
+  4     BE       +709.57%    LONG       2025-07-31   $37.39       2026-06-30   $302.70     
+  5     LITE     +679.49%    NO         2025-07-31   $110.08      2026-06-30   $858.06     
+  6     INTC     +605.20%    NO         2025-07-31   $19.80       2026-06-30   $139.63     
+  7     AAOI     +547.84%    NO         2025-07-31   $22.87       2026-06-30   $148.16     
+  8     DOCN     +463.64%    NO         2025-07-31   $27.86       2026-06-30   $157.03     
+  9     CIEN     +428.39%    NO         2025-07-31   $92.84       2026-06-30   $490.56     
+  10    ARWR     +415.89%    LONG       2025-07-31   $15.80       2026-06-30   $81.51      
+  11    RVMD     +402.50%    LONG       2025-07-31   $37.27       2026-06-30   $187.28     
+  12    MKSI     +369.83%    NO         2025-07-31   $94.67       2026-06-30   $444.80     
+  13    LRCX     +359.44%    NO         2025-07-31   $94.32       2026-06-30   $433.33     
+  14    TER      +351.53%    NO         2025-07-31   $107.16      2026-06-30   $483.84     
+  15    ALM      +348.78%    LONG       2025-07-31   $3.69        2026-06-30   $16.56      
+  16    GLW      +308.32%    NO         2025-07-31   $62.56       2026-06-30   $255.43     
+  17    AMAT     +304.48%    NO         2025-07-31   $178.75      2026-06-30   $723.00     
+  18    ONTO     +299.42%    NO         2025-07-31   $94.75       2026-06-30   $378.45     
+  19    AMKR     +285.52%    NO         2025-07-31   $22.37       2026-06-30   $86.23      
+  20    MRVL     +271.35%    NO         2025-07-31   $80.20       2026-06-30   $297.82     
+================================================================================================
+
+Total tickers loaded: 1013
+
+=================================================================
+         MOMENTUM STRATEGY BACKTEST PERFORMANCE REPORT        
+=================================================================
+  Starting Capital:            $30,000.00
+  Ending Capital:              $69,138.97
+  Total Return:                130.46%
+  Annualized Return (CAGR):    129.03%
+  Maximum Drawdown:            39.31%
+  Annualized Volatility:       60.88%
+  Sharpe Ratio:                1.64
+  Total Trades Executed:       160
+  Average Holding Period:      63.1 days
+-----------------------------------------------------------------
+  BENCHMARK COMPARISON (SPY Buy & Hold)
+-----------------------------------------------------------------
+  SPY Total Return:            21.20%
+2026-08-09 15:42:25,028 [INFO] Saved trades log to '/app/applet/backtester/trades.csv'
+2026-08-09 15:42:25,028 [INFO] Saved portfolio log to '/app/applet/backtester/portfolio.csv'
+2026-08-09 15:42:25,028 [INFO] Running Verification Mode for rebalance execution date: 2026-08-03 (signal date: 2026-07-31)
+2026-08-09 15:42:25,175 [INFO] Saved verification log to '/app/applet/backtester/verification.csv'
+2026-08-09 15:42:25,826 [INFO] Generated chart '/app/applet/backtester/equity_curve.png'
+2026-08-09 15:42:25,827 [INFO] Generated chart '/app/applet/backtester/drawdown.png'
+2026-08-09 15:42:25,875 [INFO] Starting Momentum Backtest run...
+2026-08-09 15:42:25,876 [INFO] Parameters: Start=2025-07-31, End=2026-08-04, Capital=$30,000.00, Positions=10, Lookback=12m, SkipLast=True, IncludeShorts=False, Universe=russell1000.csv
+2026-08-09 15:42:25,876 [INFO] Total tickers loaded: 1013 from universe file 'russell1000.csv'.
+2026-08-09 15:42:25,876 [INFO] Note: Historical constituent membership (DateAdded/DateRemoved) is unavailable for Russell 1000; default static dates used.
+2026-08-09 15:42:25,877 [INFO] Fetching universe price data (Close, Open, Volume) for 1013 tickers from 2024-04-30 to 2026-08-04...
+2026-08-09 15:42:33,945 [INFO] Successfully loaded price data for 1007 active tickers.
+2026-08-09 15:42:33,956 [INFO] Fetching SPY benchmark price data...
+2026-08-09 15:42:35,477 [INFO] [Issuer Dedupe Audit] Skipping candidate LLYVA on 2025-08-29: parent issuer 'Liberty Live Holdings, Inc.' already represented by higher-ranked position (LLYVK).
+2026-08-09 15:42:46,272 [INFO] Saved trades log to '/app/applet/backtester/trades.csv'
+2026-08-09 15:42:46,272 [INFO] Saved portfolio log to '/app/applet/backtester/portfolio.csv'
+2026-08-09 15:42:46,272 [INFO] Running Verification Mode for rebalance execution date: 2026-08-03 (signal date: 2026-07-31)
+2026-08-09 15:42:47,199 [INFO] Saved verification log to '/app/applet/backtester/verification.csv'
+2026-08-09 15:42:48,102 [INFO] Generated chart '/app/applet/backtester/equity_curve.png'
+2026-08-09 15:42:48,102 [INFO] Generated chart '/app/applet/backtester/drawdown.png'
+2026-08-09 15:42:48,162 [INFO] Starting Momentum Backtest run...
+2026-08-09 15:42:48,162 [INFO] Parameters: Start=2025-07-31, End=2026-08-04, Capital=$30,000.00, Positions=10, Lookback=12m, SkipLast=True, IncludeShorts=False, Universe=russell1000.csv
+2026-08-09 15:42:48,162 [INFO] Total tickers loaded: 1013 from universe file 'russell1000.csv'.
+2026-08-09 15:42:48,162 [INFO] Note: Historical constituent membership (DateAdded/DateRemoved) is unavailable for Russell 1000; default static dates used.
+2026-08-09 15:42:48,163 [INFO] Fetching universe price data (Close, Open, Volume) for 1013 tickers from 2024-04-30 to 2026-08-04...
+2026-08-09 15:42:59,161 [INFO] Successfully loaded price data for 1007 active tickers.
+2026-08-09 15:42:59,171 [INFO] Fetching SPY benchmark price data...
+2026-08-09 15:43:00,607 [INFO] Saved trades log to '/app/applet/backtester/trades.csv'
+2026-08-09 15:43:00,607 [INFO] Saved portfolio log to '/app/applet/backtester/portfolio.csv'
+2026-08-09 15:43:00,607 [INFO] Running Verification Mode for rebalance execution date: 2026-08-03 (signal date: 2026-07-31)
+2026-08-09 15:43:00,804 [INFO] Saved verification log to '/app/applet/backtester/verification.csv'
+  SPY Annualized Return (CAGR):21.02%
+  SPY Maximum Drawdown:        8.88%
+  Alpha (CAGR Spread):         +108.01%
+=================================================================
+
+
+================================================================================================
+      REBALANCE VERIFICATION REPORT — REBALANCE DATE: 2026-07-31
+================================================================================================
+  Total Stocks Evaluated:      1007
+  Valid Momentum Scores:       991
+  Skipped / Stale / Missing:   16
+------------------------------------------------------------------------------------------------
+  TOP 20 RANKED STOCKS (12-1 Momentum Calculation)
+------------------------------------------------------------------------------------------------
+  Rank  Ticker   Score (%)   Selected   Start Date   Start Price  End Date     End Price   
+  ----------------------------------------------------------------------------------------------
+  1     SNDK     +5197.60%   LONG       2025-07-31   $42.92       2026-06-30   $2,273.73   
+  2     MU       +959.16%    LONG       2025-07-31   $108.97      2026-06-30   $1,154.11   
+  3     WDC      +713.89%    LONG       2025-07-31   $78.48       2026-06-30   $638.72     
+  4     BE       +709.57%    LONG       2025-07-31   $37.39       2026-06-30   $302.70     
+  5     LITE     +679.49%    LONG       2025-07-31   $110.08      2026-06-30   $858.06     
+  6     INTC     +605.20%    LONG       2025-07-31   $19.80       2026-06-30   $139.63     
+  7     AAOI     +547.84%    LONG       2025-07-31   $22.87       2026-06-30   $148.16     
+  8     DOCN     +463.64%    LONG       2025-07-31   $27.86       2026-06-30   $157.03     
+  9     CIEN     +428.39%    LONG       2025-07-31   $92.84       2026-06-30   $490.56     
+  10    ARWR     +415.89%    LONG       2025-07-31   $15.80       2026-06-30   $81.51      
+  11    RVMD     +402.50%    NO         2025-07-31   $37.27       2026-06-30   $187.28     
+  12    MKSI     +369.83%    NO         2025-07-31   $94.67       2026-06-30   $444.80     
+  13    LRCX     +359.44%    NO         2025-07-31   $94.32       2026-06-30   $433.33     
+  14    TER      +351.53%    NO         2025-07-31   $107.16      2026-06-30   $483.84     
+  15    ALM      +348.78%    NO         2025-07-31   $3.69        2026-06-30   $16.56      
+  16    GLW      +308.32%    NO         2025-07-31   $62.56       2026-06-30   $255.43     
+  17    AMAT     +304.48%    NO         2025-07-31   $178.75      2026-06-30   $723.00     
+  18    ONTO     +299.42%    NO         2025-07-31   $94.75       2026-06-30   $378.45     
+  19    AMKR     +285.52%    NO         2025-07-31   $22.37       2026-06-30   $86.23      
+  20    MRVL     +271.35%    NO         2025-07-31   $80.20       2026-06-30   $297.82     
+================================================================================================
+
+Total tickers loaded: 1013
+
+=================================================================
+         MOMENTUM STRATEGY BACKTEST PERFORMANCE REPORT        
+=================================================================
+  Starting Capital:            $30,000.00
+  Ending Capital:              $64,611.51
+  Total Return:                115.37%
+  Annualized Return (CAGR):    114.14%
+  Maximum Drawdown:            34.25%
+  Annualized Volatility:       52.27%
+  Sharpe Ratio:                1.69
+  Total Trades Executed:       173
+  Average Holding Period:      50.6 days
+-----------------------------------------------------------------
+  BENCHMARK COMPARISON (SPY Buy & Hold)
+-----------------------------------------------------------------
+  SPY Total Return:            21.20%
+  SPY Annualized Return (CAGR):21.02%
+  SPY Maximum Drawdown:        8.88%
+  Alpha (CAGR Spread):         +93.12%
+=================================================================
+
+
+================================================================================================
+      REBALANCE VERIFICATION REPORT — REBALANCE DATE: 2026-07-31
+================================================================================================
+  Total Stocks Evaluated:      1007
+  Valid Momentum Scores:       991
+  Skipped / Stale / Missing:   16
+------------------------------------------------------------------------------------------------
+  TOP 20 RANKED STOCKS (12-1 Momentum Calculation)
+------------------------------------------------------------------------------------------------
+  Rank  Ticker   Score (%)   Selected   Start Date   Start Price  End Date     End Price   
+  ----------------------------------------------------------------------------------------------
+  1     SNDK     +5197.60%   LONG       2025-07-31   $42.92       2026-06-30   $2,273.73   
+  2     MU       +959.16%    LONG       2025-07-31   $108.97      2026-06-30   $1,154.11   
+  3     WDC      +713.89%    LONG       2025-07-31   $78.48       2026-06-30   $638.72     
+  4     BE       +709.57%    LONG       2025-07-31   $37.39       2026-06-30   $302.70     
+  5     LITE     +679.49%    LONG       2025-07-31   $110.08      2026-06-30   $858.06     
+  6     INTC     +605.20%    LONG       2025-07-31   $19.80       2026-06-30   $139.63     
+  7     AAOI     +547.84%    NO         2025-07-31   $22.87       2026-06-30   $148.16     
+  8     DOCN     +463.64%    NO         2025-07-31   $27.86       2026-06-30   $157.03     
+  9     CIEN     +428.39%    LONG       2025-07-31   $92.84       2026-06-30   $490.56     
+  10    ARWR     +415.89%    LONG       2025-07-31   $15.80       2026-06-30   $81.51      
+  11    RVMD     +402.50%    NO         2025-07-31   $37.27       2026-06-30   $187.28     
+  12    MKSI     +369.83%    LONG       2025-07-31   $94.67       2026-06-30   $444.80     
+  13    LRCX     +359.44%    LONG       2025-07-31   $94.32       2026-06-30   $433.33     
+  14    TER      +351.53%    NO         2025-07-31   $107.16      2026-06-30   $483.84     
+  15    ALM      +348.78%    NO         2025-07-31   $3.69        2026-06-30   $16.56      
+  16    GLW      +308.32%    NO         2025-07-31   $62.56       2026-06-30   $255.43     
+  17    AMAT     +304.48%    NO         2025-07-31   $178.75      2026-06-30   $723.00     
+  18    ONTO     +299.42%    NO         2025-07-31   $94.75       2026-06-30   $378.45     
+  19    AMKR     +285.52%    NO         2025-07-31   $22.37       2026-06-30   $86.23      
+  20    MRVL     +271.35%    NO         2025-07-31   $80.20       2026-06-30   $297.82     
+================================================================================================
+
+Total tickers loaded: 1013
+
+=================================================================
+         MOMENTUM STRATEGY BACKTEST PERFORMANCE REPORT        
+=================================================================
+  Starting Capital:            $30,000.00
+  Ending Capital:              $72,977.92
+  Total Return:                143.26%
+  Annualized Return (CAGR):    141.65%
+  Maximum Drawdown:            39.31%
+  Annualized Volatility:       61.41%
+  Sharpe Ratio:                1.72
+  Total Trades Executed:       159
+  Average Holding Period:      63.2 days
+-----------------------------------------------------------------
+  BENCHMARK COMPARISON (SPY Buy & Hold)
+-----------------------------------------------------------------
+  SPY Total Return:            21.20%
+  SPY Annualized Return (CAGR):21.02%
+  SPY Maximum Drawdown:        8.88%
+  Alpha (CAGR Spread):         +120.63%
+=================================================================
+
+
+================================================================================================
+      REBALANCE VERIFICATION REPORT — REBALANCE DATE: 2026-07-31
+================================================================================================
+  Total Stocks Evaluated:      1007
+  Valid Momentum Scores:       991
+  Skipped / Stale / Missing:   16
+------------------------------------------------------------------------------------------------
+  TOP 20 RANKED STOCKS (12-1 Momentum Calculation)
+2026-08-09 15:43:01,798 [INFO] Generated chart '/app/applet/backtester/equity_curve.png'
+2026-08-09 15:43:01,798 [INFO] Generated chart '/app/applet/backtester/drawdown.png'
+2026-08-09 15:43:01,844 [INFO] Starting Momentum Backtest run...
+2026-08-09 15:43:01,844 [INFO] Parameters: Start=2025-07-31, End=2026-08-04, Capital=$30,000.00, Positions=10, Lookback=12m, SkipLast=True, IncludeShorts=False, Universe=russell1000.csv
+2026-08-09 15:43:01,844 [INFO] Total tickers loaded: 1013 from universe file 'russell1000.csv'.
+2026-08-09 15:43:01,845 [INFO] Note: Historical constituent membership (DateAdded/DateRemoved) is unavailable for Russell 1000; default static dates used.
+2026-08-09 15:43:01,845 [INFO] Fetching universe price data (Close, Open, Volume) for 1013 tickers from 2024-04-30 to 2026-08-04...
+2026-08-09 15:43:12,809 [INFO] Successfully loaded price data for 1007 active tickers.
+2026-08-09 15:43:12,821 [INFO] Fetching SPY benchmark price data...
+2026-08-09 15:43:14,814 [INFO] [Filter Audit] Earnings calendar data source is required as a dependency for earnings blackout filtering (3 blackout days). No earnings calendar source available; earnings blackout filter skipped.
+2026-08-09 15:43:14,817 [INFO] [Sector Cap Audit] Skipping candidate LLYVA on 2025-07-31: sector 'Communication Services' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:14,817 [INFO] [Sector Cap Audit] Skipping candidate LLYVK on 2025-07-31: sector 'Communication Services' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:16,498 [INFO] [Issuer Dedupe Audit] Skipping candidate LLYVA on 2025-08-29: parent issuer 'Liberty Live Holdings, Inc.' already represented by higher-ranked position (LLYVK).
+2026-08-09 15:43:29,624 [INFO] [Sector Cap Audit] Skipping candidate ASTS on 2026-01-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:29,625 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-01-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:32,505 [INFO] [Sector Cap Audit] Skipping candidate LITE on 2026-02-27: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:32,508 [INFO] [Sector Cap Audit] Skipping candidate APH on 2026-02-27: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:35,500 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:35,501 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:35,502 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:35,503 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-03-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:38,532 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:38,532 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:38,533 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:38,534 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:38,534 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-04-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:41,540 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:41,540 [INFO] [Sector Cap Audit] Skipping candidate MU on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:41,541 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:41,541 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:41,543 [INFO] [Sector Cap Audit] Skipping candidate AMKR on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:41,543 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:41,544 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:41,544 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-05-29: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,414 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,414 [INFO] [Sector Cap Audit] Skipping candidate LITE on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,414 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,415 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,416 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,416 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,417 [INFO] [Sector Cap Audit] Skipping candidate LRCX on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,417 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,419 [INFO] [Sector Cap Audit] Skipping candidate COHR on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,421 [INFO] [Sector Cap Audit] Skipping candidate AMD on 2026-06-30: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:44,421 [INFO] [Issuer Dedupe Audit] Skipping candidate GOOG on 2026-06-30: parent issuer 'Alphabet Inc.' already represented by higher-ranked position (GOOGL).
+2026-08-09 15:43:47,514 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,514 [INFO] [Sector Cap Audit] Skipping candidate LITE on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,514 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,515 [INFO] [Sector Cap Audit] Skipping candidate LRCX on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,515 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,516 [INFO] [Sector Cap Audit] Skipping candidate AMAT on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,517 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,517 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,518 [INFO] [Sector Cap Audit] Skipping candidate ONTO on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,518 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,518 [INFO] [Sector Cap Audit] Skipping candidate KLAC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,519 [INFO] [Sector Cap Audit] Skipping candidate AMKR on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:47,520 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,292 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,292 [INFO] [Sector Cap Audit] Skipping candidate LITE on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,293 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,293 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,293 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,293 [INFO] [Sector Cap Audit] Skipping candidate LRCX on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,294 [INFO] [Sector Cap Audit] Skipping candidate AMAT on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,294 [INFO] [Sector Cap Audit] Skipping candidate ONTO on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,294 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-08-03: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,294 [INFO] [Sector Cap Audit] Skipping candidate JNJ on 2026-08-03: sector 'Healthcare' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:50,509 [INFO] Saved trades log to '/app/applet/backtester/trades.csv'
+2026-08-09 15:43:50,509 [INFO] Saved portfolio log to '/app/applet/backtester/portfolio.csv'
+2026-08-09 15:43:50,510 [INFO] Running Verification Mode for rebalance execution date: 2026-08-03 (signal date: 2026-07-31)
+2026-08-09 15:43:52,232 [INFO] [Sector Cap Audit] Skipping candidate INTC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,232 [INFO] [Sector Cap Audit] Skipping candidate LITE on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,233 [INFO] [Sector Cap Audit] Skipping candidate MKSI on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,233 [INFO] [Sector Cap Audit] Skipping candidate LRCX on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,234 [INFO] [Sector Cap Audit] Skipping candidate CIEN on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,234 [INFO] [Sector Cap Audit] Skipping candidate AMAT on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,234 [INFO] [Sector Cap Audit] Skipping candidate DOCN on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,234 [INFO] [Sector Cap Audit] Skipping candidate TER on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,235 [INFO] [Sector Cap Audit] Skipping candidate ONTO on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,235 [INFO] [Sector Cap Audit] Skipping candidate GLW on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,235 [INFO] [Sector Cap Audit] Skipping candidate KLAC on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,235 [INFO] [Sector Cap Audit] Skipping candidate AMKR on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,237 [INFO] [Sector Cap Audit] Skipping candidate AAOI on 2026-07-31: sector 'Technology' already reached limit of 3 positions (max: 3).
+2026-08-09 15:43:52,300 [INFO] Saved verification log to '/app/applet/backtester/verification.csv'
+2026-08-09 15:43:53,621 [INFO] Generated chart '/app/applet/backtester/equity_curve.png'
+2026-08-09 15:43:53,621 [INFO] Generated chart '/app/applet/backtester/drawdown.png'
+------------------------------------------------------------------------------------------------
+  Rank  Ticker   Score (%)   Selected   Start Date   Start Price  End Date     End Price   
+  ----------------------------------------------------------------------------------------------
+  1     SNDK     +5197.60%   LONG       2025-07-31   $42.92       2026-06-30   $2,273.73   
+  2     MU       +959.16%    LONG       2025-07-31   $108.97      2026-06-30   $1,154.11   
+  3     WDC      +713.89%    LONG       2025-07-31   $78.48       2026-06-30   $638.72     
+  4     BE       +709.57%    LONG       2025-07-31   $37.39       2026-06-30   $302.70     
+  5     LITE     +679.49%    LONG       2025-07-31   $110.08      2026-06-30   $858.06     
+  6     INTC     +605.20%    LONG       2025-07-31   $19.80       2026-06-30   $139.63     
+  7     AAOI     +547.84%    LONG       2025-07-31   $22.87       2026-06-30   $148.16     
+  8     DOCN     +463.64%    LONG       2025-07-31   $27.86       2026-06-30   $157.03     
+  9     CIEN     +428.39%    LONG       2025-07-31   $92.84       2026-06-30   $490.56     
+  10    ARWR     +415.89%    LONG       2025-07-31   $15.80       2026-06-30   $81.51      
+  11    RVMD     +402.50%    NO         2025-07-31   $37.27       2026-06-30   $187.28     
+  12    MKSI     +369.83%    NO         2025-07-31   $94.67       2026-06-30   $444.80     
+  13    LRCX     +359.44%    NO         2025-07-31   $94.32       2026-06-30   $433.33     
+  14    TER      +351.53%    NO         2025-07-31   $107.16      2026-06-30   $483.84     
+  15    ALM      +348.78%    NO         2025-07-31   $3.69        2026-06-30   $16.56      
+  16    GLW      +308.32%    NO         2025-07-31   $62.56       2026-06-30   $255.43     
+  17    AMAT     +304.48%    NO         2025-07-31   $178.75      2026-06-30   $723.00     
+  18    ONTO     +299.42%    NO         2025-07-31   $94.75       2026-06-30   $378.45     
+  19    AMKR     +285.52%    NO         2025-07-31   $22.37       2026-06-30   $86.23      
+  20    MRVL     +271.35%    NO         2025-07-31   $80.20       2026-06-30   $297.82     
+================================================================================================
+
+Total tickers loaded: 1013
+
+=================================================================
+         MOMENTUM STRATEGY BACKTEST PERFORMANCE REPORT        
+=================================================================
+  Starting Capital:            $30,000.00
+  Ending Capital:              $58,747.92
+  Total Return:                95.83%
+  Annualized Return (CAGR):    94.85%
+  Maximum Drawdown:            23.84%
+  Annualized Volatility:       43.40%
+  Sharpe Ratio:                1.72
+  Total Trades Executed:       175
+  Average Holding Period:      50.8 days
+-----------------------------------------------------------------
+  BENCHMARK COMPARISON (SPY Buy & Hold)
+-----------------------------------------------------------------
+  SPY Total Return:            21.20%
+  SPY Annualized Return (CAGR):21.02%
+  SPY Maximum Drawdown:        8.88%
+  Alpha (CAGR Spread):         +73.82%
+=================================================================
+
+
+================================================================================================
+      REBALANCE VERIFICATION REPORT — REBALANCE DATE: 2026-07-31
+================================================================================================
+  Total Stocks Evaluated:      1007
+  Valid Momentum Scores:       991
+  Skipped / Stale / Missing:   16
+------------------------------------------------------------------------------------------------
+  TOP 20 RANKED STOCKS (12-1 Momentum Calculation)
+------------------------------------------------------------------------------------------------
+  Rank  Ticker   Score (%)   Selected   Start Date   Start Price  End Date     End Price   
+  ----------------------------------------------------------------------------------------------
+  1     SNDK     +5197.60%   LONG       2025-07-31   $42.92       2026-06-30   $2,273.73   
+  2     MU       +959.16%    LONG       2025-07-31   $108.97      2026-06-30   $1,154.11   
+  3     WDC      +713.89%    LONG       2025-07-31   $78.48       2026-06-30   $638.72     
+  4     BE       +709.57%    LONG       2025-07-31   $37.39       2026-06-30   $302.70     
+  5     LITE     +679.49%    NO         2025-07-31   $110.08      2026-06-30   $858.06     
+  6     INTC     +605.20%    NO         2025-07-31   $19.80       2026-06-30   $139.63     
+  7     AAOI     +547.84%    NO         2025-07-31   $22.87       2026-06-30   $148.16     
+  8     DOCN     +463.64%    NO         2025-07-31   $27.86       2026-06-30   $157.03     
+  9     CIEN     +428.39%    NO         2025-07-31   $92.84       2026-06-30   $490.56     
+  10    ARWR     +415.89%    LONG       2025-07-31   $15.80       2026-06-30   $81.51      
+  11    RVMD     +402.50%    LONG       2025-07-31   $37.27       2026-06-30   $187.28     
+  12    MKSI     +369.83%    NO         2025-07-31   $94.67       2026-06-30   $444.80     
+  13    LRCX     +359.44%    NO         2025-07-31   $94.32       2026-06-30   $433.33     
+  14    TER      +351.53%    NO         2025-07-31   $107.16      2026-06-30   $483.84     
+  15    ALM      +348.78%    NO         2025-07-31   $3.69        2026-06-30   $16.56      
+  16    GLW      +308.32%    NO         2025-07-31   $62.56       2026-06-30   $255.43     
+  17    AMAT     +304.48%    NO         2025-07-31   $178.75      2026-06-30   $723.00     
+  18    ONTO     +299.42%    NO         2025-07-31   $94.75       2026-06-30   $378.45     
+  19    AMKR     +285.52%    NO         2025-07-31   $22.37       2026-06-30   $86.23      
+  20    MRVL     +271.35%    NO         2025-07-31   $80.20       2026-06-30   $297.82     
+================================================================================================
+
+
+
+==============================================================================================================
+                               SIX-WAY RISK FILTERS COMPARISON TABLE
+==============================================================================================================
+                                         Scenario Total Return (%)               Max Drawdown (Range) Sharpe Ratio  Months < 10 Pos
+                  1. Baseline (All 5 Filters Off)         +143.26% -39.31% (2026-06-22 to 2026-07-29)         1.72                0
+2. Sector Cap Only (Max 3/Sector, Issuer-Deduped)          +96.57% -29.95% (2026-05-13 to 2026-07-29)         1.50                0
+   3. Liquidity Floor Only ($30M Vol, $2B MktCap)         +130.46% -39.31% (2026-06-22 to 2026-07-29)         1.64                0
+   4. Risk-Adjusted Ranking Only (Sharpe Ranking)         +115.37% -34.25% (2026-06-22 to 2026-07-29)         1.69                0
+      5. Market Regime Filter Only (SPY 200d SMA)         +143.26% -39.31% (2026-06-22 to 2026-07-29)         1.72                0
+                        6. All 5 Filters Combined          +95.83% -23.84% (2026-06-22 to 2026-07-29)         1.72                0
+==============================================================================================================
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                               SANITY CHECK WARNINGS TRIGGERED:
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ - RED FLAG: Scenario '1. Baseline (All 5 Filters Off)' (+143.26%) and '3. Liquidity Floor Only ($30M Vol, $2B MktCap)' (+130.46%) have different returns but IDENTICAL Max Drawdown (-39.31% (2026-06-22 to 2026-07-29)). Potential metric caching bug!
+ - RED FLAG: Scenario '3. Liquidity Floor Only ($30M Vol, $2B MktCap)' (+130.46%) and '5. Market Regime Filter Only (SPY 200d SMA)' (+143.26%) have different returns but IDENTICAL Max Drawdown (-39.31% (2026-06-22 to 2026-07-29)). Potential metric caching bug!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

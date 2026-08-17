@@ -1,0 +1,86 @@
+FACTOR WEIGHT GRID SEARCH SUMMARY REPORT
+In-Sample Date Range: 2020-01-02 to 2024-08-07
+Out-of-Sample Date Range: 2024-08-08 to 2026-08-03
+
+SHORTLISTED COMBINATIONS (IS vs OOS COMPARISON):
+
+=== Weights: 20/70/10 (Mom/Qual/LowVol) ===
+  IS  Composite Calmar: 4.63
+  IS  Long Horizon  - Avg Ret: 30.74%, Worst DD: 34.30%, Calmar: 2.24, Sharpe: 1.18, Alpha vs SPY: 14.91%
+  IS  Med Horizon   - Avg Ret: 17.46%, Worst DD: 34.30%, Calmar: 4.04, Sharpe: 1.38, Alpha vs SPY: 8.90%
+  IS  Short Horizon - Avg Ret: 4.97%, Worst DD: 34.19%, Calmar: 11.50, Sharpe: 1.45, Alpha vs SPY: 2.45%
+  OOS Long Horizon  - Avg Ret: 107.99%, Worst DD: 25.13%, Calmar: 6.11, Sharpe: 1.99, Alpha vs SPY: 87.55%
+  OOS Med Horizon   - Avg Ret: 46.81%, Worst DD: 25.13%, Calmar: 9.41, Sharpe: 1.96, Alpha vs SPY: 38.87%
+  OOS Short Horizon - Avg Ret: 14.49%, Worst DD: 23.82%, Calmar: 25.38, Sharpe: 2.37, Alpha vs SPY: 11.47%
+  [ROBUSTNESS VERIFIED]: Consistent Out-of-Sample performance relative to In-Sample
+
+=== Weights: 40/40/20 (Mom/Qual/LowVol) ===
+  IS  Composite Calmar: 4.63
+  IS  Long Horizon  - Avg Ret: 30.74%, Worst DD: 34.30%, Calmar: 2.24, Sharpe: 1.18, Alpha vs SPY: 14.91%
+  IS  Med Horizon   - Avg Ret: 17.46%, Worst DD: 34.30%, Calmar: 4.04, Sharpe: 1.38, Alpha vs SPY: 8.90%
+  IS  Short Horizon - Avg Ret: 4.97%, Worst DD: 34.19%, Calmar: 11.50, Sharpe: 1.45, Alpha vs SPY: 2.45%
+  OOS Long Horizon  - Avg Ret: 107.99%, Worst DD: 25.13%, Calmar: 6.11, Sharpe: 1.99, Alpha vs SPY: 87.55%
+  OOS Med Horizon   - Avg Ret: 46.81%, Worst DD: 25.13%, Calmar: 9.41, Sharpe: 1.96, Alpha vs SPY: 38.87%
+  OOS Short Horizon - Avg Ret: 14.49%, Worst DD: 23.82%, Calmar: 25.38, Sharpe: 2.37, Alpha vs SPY: 11.47%
+  [ROBUSTNESS VERIFIED]: Consistent Out-of-Sample performance relative to In-Sample
+
+=== Weights: 60/10/30 (Mom/Qual/LowVol) ===
+  IS  Composite Calmar: 4.63
+  IS  Long Horizon  - Avg Ret: 30.74%, Worst DD: 34.30%, Calmar: 2.24, Sharpe: 1.18, Alpha vs SPY: 14.91%
+  IS  Med Horizon   - Avg Ret: 17.46%, Worst DD: 34.30%, Calmar: 4.04, Sharpe: 1.38, Alpha vs SPY: 8.90%
+  IS  Short Horizon - Avg Ret: 4.97%, Worst DD: 34.19%, Calmar: 11.50, Sharpe: 1.45, Alpha vs SPY: 2.45%
+  OOS Long Horizon  - Avg Ret: 107.99%, Worst DD: 25.13%, Calmar: 6.11, Sharpe: 1.99, Alpha vs SPY: 87.55%
+  OOS Med Horizon   - Avg Ret: 46.81%, Worst DD: 25.13%, Calmar: 9.41, Sharpe: 1.96, Alpha vs SPY: 38.87%
+  OOS Short Horizon - Avg Ret: 14.49%, Worst DD: 23.82%, Calmar: 25.38, Sharpe: 2.37, Alpha vs SPY: 11.47%
+  [ROBUSTNESS VERIFIED]: Consistent Out-of-Sample performance relative to In-Sample
+
+=== Weights: 50/30/20 (Mom/Qual/LowVol) ===
+  IS  Composite Calmar: 4.28
+  IS  Long Horizon  - Avg Ret: 28.88%, Worst DD: 36.20%, Calmar: 2.18, Sharpe: 1.12, Alpha vs SPY: 13.05%
+  IS  Med Horizon   - Avg Ret: 16.26%, Worst DD: 36.20%, Calmar: 3.67, Sharpe: 1.30, Alpha vs SPY: 7.71%
+  IS  Short Horizon - Avg Ret: 4.55%, Worst DD: 36.20%, Calmar: 10.45, Sharpe: 1.36, Alpha vs SPY: 2.04%
+  OOS Long Horizon  - Avg Ret: 108.40%, Worst DD: 31.62%, Calmar: 5.86, Sharpe: 1.90, Alpha vs SPY: 87.96%
+  OOS Med Horizon   - Avg Ret: 46.93%, Worst DD: 31.62%, Calmar: 9.46, Sharpe: 1.85, Alpha vs SPY: 38.99%
+  OOS Short Horizon - Avg Ret: 14.18%, Worst DD: 31.62%, Calmar: 26.74, Sharpe: 2.29, Alpha vs SPY: 11.15%
+  [ROBUSTNESS VERIFIED]: Consistent Out-of-Sample performance relative to In-Sample
+
+=== Weights: 100/0/0 (Mom/Qual/LowVol) ===
+  IS  Composite Calmar: 4.21
+  IS  Long Horizon  - Avg Ret: 29.97%, Worst DD: 36.64%, Calmar: 1.70, Sharpe: 1.05, Alpha vs SPY: 14.14%
+  IS  Med Horizon   - Avg Ret: 17.10%, Worst DD: 36.64%, Calmar: 3.23, Sharpe: 1.23, Alpha vs SPY: 8.54%
+  IS  Short Horizon - Avg Ret: 4.78%, Worst DD: 36.64%, Calmar: 11.94, Sharpe: 1.27, Alpha vs SPY: 2.26%
+  OOS Long Horizon  - Avg Ret: 108.09%, Worst DD: 36.74%, Calmar: 5.85, Sharpe: 1.80, Alpha vs SPY: 87.65%
+  OOS Med Horizon   - Avg Ret: 45.28%, Worst DD: 36.74%, Calmar: 9.52, Sharpe: 1.73, Alpha vs SPY: 37.33%
+  OOS Short Horizon - Avg Ret: 13.94%, Worst DD: 36.74%, Calmar: 28.68, Sharpe: 2.17, Alpha vs SPY: 10.92%
+  [ROBUSTNESS VERIFIED]: Consistent Out-of-Sample performance relative to In-Sample
+
+=== Weights: 0/100/0 (Mom/Qual/LowVol) ===
+  IS  Composite Calmar: 3.27
+  IS  Long Horizon  - Avg Ret: 15.41%, Worst DD: 39.10%, Calmar: 1.50, Sharpe: 0.72, Alpha vs SPY: -0.43%
+  IS  Med Horizon   - Avg Ret: 8.66%, Worst DD: 39.10%, Calmar: 2.70, Sharpe: 0.85, Alpha vs SPY: 0.10%
+  IS  Short Horizon - Avg Ret: 1.95%, Worst DD: 39.10%, Calmar: 8.52, Sharpe: 0.71, Alpha vs SPY: -0.57%
+  OOS Long Horizon  - Avg Ret: 8.73%, Worst DD: 23.42%, Calmar: 0.56, Sharpe: 0.56, Alpha vs SPY: -11.71%
+  OOS Med Horizon   - Avg Ret: 2.99%, Worst DD: 23.42%, Calmar: 1.24, Sharpe: 0.50, Alpha vs SPY: -4.95%
+  OOS Short Horizon - Avg Ret: 1.94%, Worst DD: 19.23%, Calmar: 7.63, Sharpe: 0.99, Alpha vs SPY: -1.08%
+  [OVERFITTING WARNING]: Significant performance degradation in Out-of-Sample (Long Calmar dropped from 1.50 to 0.56)
+
+=== Weights: 0/0/100 (Mom/Qual/LowVol) ===
+  IS  Composite Calmar: 2.74
+  IS  Long Horizon  - Avg Ret: 9.82%, Worst DD: 33.85%, Calmar: 0.92, Sharpe: 0.74, Alpha vs SPY: -6.02%
+  IS  Med Horizon   - Avg Ret: 5.98%, Worst DD: 33.85%, Calmar: 2.31, Sharpe: 0.94, Alpha vs SPY: -2.58%
+  IS  Short Horizon - Avg Ret: 1.70%, Worst DD: 33.85%, Calmar: 7.95, Sharpe: 1.04, Alpha vs SPY: -0.81%
+  OOS Long Horizon  - Avg Ret: 14.50%, Worst DD: 10.49%, Calmar: 1.62, Sharpe: 1.04, Alpha vs SPY: -5.94%
+  OOS Med Horizon   - Avg Ret: 8.27%, Worst DD: 10.49%, Calmar: 2.72, Sharpe: 1.25, Alpha vs SPY: 0.33%
+  OOS Short Horizon - Avg Ret: 2.64%, Worst DD: 10.49%, Calmar: 8.01, Sharpe: 1.36, Alpha vs SPY: -0.39%
+  [ROBUSTNESS VERIFIED]: Consistent Out-of-Sample performance relative to In-Sample
+
+=== Weights: 33/33/33 (Mom/Qual/LowVol) ===
+  IS  Composite Calmar: 4.20
+  IS  Long Horizon  - Avg Ret: 20.05%, Worst DD: 38.12%, Calmar: 1.44, Sharpe: 0.89, Alpha vs SPY: 4.21%
+  IS  Med Horizon   - Avg Ret: 12.95%, Worst DD: 38.12%, Calmar: 3.75, Sharpe: 1.13, Alpha vs SPY: 4.39%
+  IS  Short Horizon - Avg Ret: 3.65%, Worst DD: 38.12%, Calmar: 11.76, Sharpe: 1.16, Alpha vs SPY: 1.14%
+  OOS Long Horizon  - Avg Ret: 62.54%, Worst DD: 19.45%, Calmar: 3.90, Sharpe: 1.72, Alpha vs SPY: 42.10%
+  OOS Med Horizon   - Avg Ret: 29.52%, Worst DD: 19.45%, Calmar: 5.59, Sharpe: 1.73, Alpha vs SPY: 21.58%
+  OOS Short Horizon - Avg Ret: 9.82%, Worst DD: 19.45%, Calmar: 19.23, Sharpe: 2.21, Alpha vs SPY: 6.80%
+  [ROBUSTNESS VERIFIED]: Consistent Out-of-Sample performance relative to In-Sample
+
